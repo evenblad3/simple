@@ -1,6 +1,8 @@
 # CI/CD Development
 ## Install Dependencies
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 ## Setting Environments
 AWS_ACCESS_KEY_ID=your aws access key<br/>
@@ -12,4 +14,6 @@ S3_BUCKET_NAME=your bucket name<br/>
 API_GATEWAY_URL=your API Gateway URL<br/>
 
 ## Running Apps
+```bash
 python app.py
+```
